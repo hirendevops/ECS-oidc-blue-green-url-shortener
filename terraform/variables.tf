@@ -62,11 +62,11 @@ variable "desired_count" {
 variable "domain_name" {
   description = "name of domain hosting the app"
   type        = string
-  default     = "tm.yasinhirsi.com"
+  default     = "*.echobitzit.com"
 }
 
 variable "github_repo" {
   description = "GitHub repo"
   type        = string
-  default     = "Yasinhirsi/ECS-oidc-blue-green-url-shortener"
+  default     = "hirendevops/ECS-oidc-blue-green-url-shortener"
 }
