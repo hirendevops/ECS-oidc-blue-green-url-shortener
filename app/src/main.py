@@ -45,7 +45,7 @@ def index():
   <body>
     <div class=\"card\">
       <h1>URL Shortener</h1>
-      <p>Enter a long URL to generate a short link Pages.</p>
+      <p>Enter a long URL to generate a short link Pages Devops.</p>
       <form id=\"shorten-form\">
         <input id=\"url\" type=\"url\" placeholder=\"https://example.com/very/long/path\" required />
         <button id=\"submit\" type=\"submit\">Shorten</button>
