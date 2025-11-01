@@ -21,7 +21,7 @@ jobs:
       ECS_TASK_FAMILY: url-shortener
       CODEDEPLOY_APP: url-shortener-codedeploy-app
       CODEDEPLOY_GROUP: url-shortener-dg
-      S3_BUCKET: url-shortener-codedeploy-revisions
+      S3_BUCKET: url-shortener-codedeploy-revisionsdevops
 
     steps:
       - name: Checkout
